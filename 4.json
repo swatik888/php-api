@@ -1,0 +1,158 @@
+{
+    "4": [
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "1",
+            "quantity": "100.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "2",
+            "quantity": "100.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "3",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "4",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "5",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "6",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "7",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "8",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "9",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "4",
+            "waste_type": "10",
+            "quantity": "0.00"
+        }
+    ],
+    "7": [
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "1",
+            "quantity": "10.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "2",
+            "quantity": "10.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "3",
+            "quantity": "5.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "4",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "5",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "6",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "7",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "8",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "9",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "7",
+            "waste_type": "10",
+            "quantity": "0.00"
+        }
+    ],
+    "8": [
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "1",
+            "quantity": "100.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "2",
+            "quantity": "100.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "3",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "4",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "5",
+            "quantity": "55.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "6",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "7",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "8",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "9",
+            "quantity": "0.00"
+        },
+        {
+            "mix_waste_lot_id": "8",
+            "waste_type": "10",
+            "quantity": "0.00"
+        }
+    ]
+}
