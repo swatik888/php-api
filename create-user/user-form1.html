@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Create User</title>
+</head>
+
+<body>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="pnumber">Phone Number:</label>
+        <input type="text" id="pnumber" name="pnumber"><br><br>
+    </form>
+    <button onclick="createUser()">Create User</button>
+
+    <script>
+        function createUser() {
+            var fname = $("#fname").val();
+            var lname = $("#lname").val();
+            var email = $("#email").val();
+            var pnumber = $("#pnumber").val();
+
+            let user = {
+                first_name: fname,
+                last_name: lname,
+                email: email,
+                phone_number: pnumber
+            };
+
+            $.post('user-api-create.php', user, function (response) {
+                console.log('response: ', response)
+                if (response.status == 'success') {
+                    alert('User has been creted');
+                } else {
+                    alert('Something went wrong');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
