@@ -30,13 +30,15 @@
             var pnumber = $("#pnumber").val();
 
             let user = {
-                first_name: fname,
-                last_name: lname,
-                email: email,
-                phone_number: pnumber
+                user: {
+                    first_name: fname,
+                    last_name: lname,
+                    email: email,
+                    phone_number: pnumber
+                }
             };
 
-            $.post('user-api-create1.php', user, function (response) {
+            $.post('user-api-create2.php', user, function (response) {
                 console.log('response: ', response)
                 if (response.status == 'success') {
                     alert('User has been creted');
