@@ -1,7 +1,7 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 
-include_once "db-utils.php";
+include_once "../db-utils/db-utils.php";
 
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
