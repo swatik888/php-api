@@ -14,9 +14,7 @@
 <body>
 
     <div class="container mt-3">
-        <table id="user-table" class="table table-striped">
-
-        </table>
+        <table id="user-table" class="table table-striped"></table>
     </div>
 
 
@@ -26,7 +24,7 @@
                 // console.log('status: ', status);
                 // console.log('data: ', data);
                 var headers = ['First name', 'Last name', 'Email', 'Phone number'];
-                var userTable = '<thead> <tr>';
+                var userTable = '<thead class="table-success"> <tr>';
                 headers.forEach(function (header) {
                     userTable += '<th>' + header + '</th>';
                 });
